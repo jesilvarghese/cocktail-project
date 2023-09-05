@@ -1,0 +1,18 @@
+.side-panel {
+    width: 20%;
+    min-height: 100%; 
+}
+.cocktail {
+    background-color: antiquewhite;
+    /* margin: 50%; */
+    display: flex;
+    border-radius: 4px;
+    max-width: 300px;
+    margin: 4px;
+}
+mat-card-header {
+    display: flex;
+}
+.go-home {
+    margin: 20px !important;
+}

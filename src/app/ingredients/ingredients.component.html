@@ -1,0 +1,22 @@
+<div class="third-page">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title class="magarita-header-image"></mat-card-title>
+            <mat-card-title class="list-ingredients"> Ingredients
+                <ul *ngFor ="let cocktailinfo of ingredientList">
+                    <li class="list-info">{{cocktailinfo.strDrink}}</li>
+                        <li class="decoration-none">
+                            <ul>
+                                <li class="list-info">{{cocktailinfo.strIngredient1}}</li>
+                                <li class="list-info">{{cocktailinfo.strIngredient2}}</li>
+                                <li class="list-info">{{cocktailinfo.strIngredient3}}</li>
+                            </ul>
+                        </li>
+                    
+                </ul>
+            </mat-card-title>
+           
+        </mat-card-header>
+        
+    </mat-card>
+</div>

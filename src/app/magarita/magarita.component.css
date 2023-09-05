@@ -1,0 +1,22 @@
+.cocktail {
+    background-color: antiquewhite;
+    display: flex;
+    border-radius: 4px;
+    max-width: 300px;
+    margin: 4px;
+}
+
+.magarita-header-image {
+    background-image: url(../../assets/margarita.jpg);
+    height: 100px;
+    width: 500px;
+    border-radius: none;
+}
+.cocktail {
+    max-width: 500px !important;
+    margin: 20px;
+    cursor: pointer;
+}
+.mat-mdc-card-header {
+    padding: 0 !important;
+}

@@ -1,0 +1,15 @@
+.cocktail {
+    background-color: antiquewhite;
+    /* margin: 50%; */
+    display: flex;
+    border-radius: 4px;
+    max-width: 300px;
+    margin: 4px;
+    cursor: pointer;
+}
+mat-card-header {
+    display: flex;
+}
+.mat-mdc-card-header {
+    padding: 16px 16px 16px;
+}

@@ -1,0 +1,35 @@
+
+.third-page{
+    margin: 20px;
+    width: 50%;
+    .magarita-header-image {
+        background-image: url(../../assets/margarita.jpg);
+        height: 100px;
+        width: 120px;
+        border-radius: none;
+        margin: 10px;
+    }
+    .list-ingredients{
+        li {
+            font-weight: 400 !important;
+            color: burlywood !important;
+        }
+    }
+    .mat-mdc-card-header {
+        padding: 0 !important;
+        display: inline;
+    }
+    .mat-mdc-card-header-text{
+        display: inline-flex;
+        mat-card-title {
+            margin: 10px;
+        }
+    } 
+    .list-info {
+        font-weight: 400 !important;
+            color: burlywood !important;
+    }
+    .decoration-none {
+        list-style-type: none;
+    }
+}
